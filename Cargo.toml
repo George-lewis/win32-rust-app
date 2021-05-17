@@ -6,4 +6,6 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-winapi = "0.3.9"
+# Maybe later
+# widestring = { git = "https://github.com/George-lewis/widestring-rs", branch = "pop!" }
+winapi = { version = "0.3", features = ["everything"] }
