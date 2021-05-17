@@ -215,11 +215,11 @@ fn winmain() -> i32 {
         // let btn = CreateWindowExW(
         //     0,
         //     win32_string_term("BUTTON").ptr(),
-        //     win32_string_term("BRUH").ptr(),
+        //     win32_string_term("im a button").ptr(),
         //     WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_PUSHBUTTON,
         //     10,
         //     10,
-        //     100,
+        //     200,
         //     25,
         //     handle,
         //     null(),
